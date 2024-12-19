@@ -2,14 +2,9 @@ import sys
 import argparse
 from envs import envm
 
-def print_environment():
-    print("Python version:", sys.version)
-    print("Platform:", sys.platform)
-    envm.print_cuda_env()
-    
 def main(print_env=True):
     if print_env:
-        print_environment()
+        envm.print_system_environment()
 
     # Logic
 
