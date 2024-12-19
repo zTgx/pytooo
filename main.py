@@ -1,6 +1,5 @@
-import sys
 import argparse
-from envs import envm
+from src.envs import envm
 
 def main(print_env=True):
     if print_env:

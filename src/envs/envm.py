@@ -3,7 +3,7 @@ import platform
 import sys
 import pprint
 
-from envs.hello_world import hello_world
+from src.envs.hello_world import hello_world
 
 def print_system_environment():
     # 动态生成配置信息
